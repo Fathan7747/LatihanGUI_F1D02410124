@@ -1,7 +1,7 @@
 # Latihan GUI Java Swing - Form Biodata Mahasiswa
 
 **NIM  :** (F1D02410124)
-**Nama :** (F1D02410124)
+**Nama :** (Muhammad Fathan Abdullah)
 
 Aplikasi form biodata sederhana: isi Nama, NIM, pilih Program Studi, centang konfirmasi, lalu klik **Simpan** untuk menampilkan data di kotak "Hasil Input". **Reset** mengosongkan form, **Keluar** menutup aplikasi.
 
