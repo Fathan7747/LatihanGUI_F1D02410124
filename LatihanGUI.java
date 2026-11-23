@@ -3,11 +3,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// Top-level container: JFrame
-// Event listener: implements ActionListener (override actionPerformed)
+
 public class LatihanGUI extends JFrame implements ActionListener {
 
-    // Layout classes
+  
     private BorderLayout layoutUtama;
     private GridLayout layoutAtas;
     private BorderLayout layoutTengah;
@@ -15,14 +14,14 @@ public class LatihanGUI extends JFrame implements ActionListener {
     private FlowLayout layoutTombol;
     private BorderLayout layoutHasil;
 
-    // Intermediate container: JPanel
+   
     private JPanel panelAtas;
     private JPanel panelTengah;
     private JPanel panelForm;
     private JPanel panelTombol;
     private JPanel panelHasil;
 
-    // Atomic components
+   
     private ImageIcon gambarMinato;
     private JLabel labelJudul;
     private JLabel labelGambar;
@@ -87,7 +86,7 @@ public class LatihanGUI extends JFrame implements ActionListener {
         labelStatus.setFont(new Font("Arial", Font.BOLD, 12));
         labelStatus.setBorder(BorderFactory.createEmptyBorder(0, 16, 8, 0));
 
-        // Event: daftarkan listener ke tombol
+      
         tombolSimpan.addActionListener(this);
         tombolReset.addActionListener(this);
         tombolKeluar.addActionListener(this);
